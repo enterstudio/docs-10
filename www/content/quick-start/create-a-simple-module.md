@@ -64,7 +64,7 @@ Let's create a _"Latest News"_ Module to display a banner at the top of every pa
 We created a simple module whose Main file had a Main class `_LawPress_Latest_News` with an output method `the_latest_news_html()` and we registered the Module in the Application so that the Application will load the Module and make its functionality available.
 
 ###Notes:
-- This Module is not very practical because we hardcoded the latest news and the CSS to keep the example short.
+- This Module is not very practical because, to keep the example short, we hardcoded the latest news and the CSS.
 - In WPLib we use the `the_` prefix to render output and the `_html` suffix to  generate _safe_ HTML output. More on that later.
 - The leading underscore on `_LawPress_Latest_News` indicates we will not reference by name outside its own file.
 - The call to `self::register_helper()` registers the class  `_LawPress_Latest_News` as a _**"Helper"**_, i.e. a class that adds its static methods to either the Application class `LawPress`. You'll see that in use next.

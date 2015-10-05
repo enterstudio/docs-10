@@ -14,7 +14,7 @@
 	require( __DIR__ . '/lawpress-theme.php' );
 	```
 
-1. You know have a Theme class you can augment later.
+1. You now have a Theme class you can augment later.
 	- You should test your site to make sure it loads without breaking, though you will not see any changes yet.
 
 ## _What Did We Just Do?_
